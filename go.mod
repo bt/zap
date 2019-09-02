@@ -10,4 +10,5 @@ require (
 	github.com/blugelabs/vellum v1.0.2
 	github.com/edsrzf/mmap-go v1.0.0
 	github.com/golang/snappy v0.0.1
+	github.com/spf13/cobra v0.0.5
 )

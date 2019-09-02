@@ -16,9 +16,6 @@ package main
 
 import (
 	"github.com/blugelabs/zap/cmd/zap/cmd"
-
-	// to support standard set of build tags
-	_ "github.com/blugelabs/bleve/config"
 )
 
 func main() {
