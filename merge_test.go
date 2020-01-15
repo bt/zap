@@ -72,7 +72,7 @@ func TestMerge(t *testing.T) {
 	segsToMerge[0] = segment
 	segsToMerge[1] = segment2
 
-	_, _, err = Merge(segsToMerge, []*roaring.Bitmap{nil, nil}, "/tmp/scorch3.zap", 1024, nil, nil)
+	_, _, err = Merge(segsToMerge, []*roaring.Bitmap{nil, nil}, "/tmp/scorch3.zap", DefaultChunkMode, nil, nil)
 	if err != nil {
 		t.Fatal(err)
 	}
