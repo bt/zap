@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/blugelabs/zap"
+	"github.com/blugelabs/zap/v2"
 	"github.com/spf13/cobra"
 )
 

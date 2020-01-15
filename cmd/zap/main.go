@@ -15,7 +15,7 @@
 package main
 
 import (
-	"github.com/blugelabs/zap/cmd/zap/cmd"
+	"github.com/blugelabs/zap/v2/cmd/zap/cmd"
 )
 
 func main() {
