@@ -1,4 +1,4 @@
-module github.com/blugelabs/zap
+module github.com/blugelabs/zap/v2
 
 go 1.12
 
